@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    margin: auto;
+    width: fit-content;
+
+}
+
+label {
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+#survey-form {
+    background-color: rgb(64, 42, 69);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(84, 119, 179);
+    color: white;
+    font-size: 20px;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea, select {
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    color: rgb(34, 39, 54);
+    margin-top: 8px;
+    outline: none;
+}
+
+input:focus, textarea:focus, select:focus {
+    border: 2px solid rgb(25, 64, 181);
+}
+
+#comments {
+    height: 150px;
+}
+
+button[type="submit"] {
+    background-color: rgb(69, 191, 91);
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px 5px;
+    outline: none;
+    border: none;
+    color: white;
+}
